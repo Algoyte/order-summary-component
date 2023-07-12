@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Hats";
+    src: url("./assets/fonts/RedHatDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hatsblack";
+    src: url("./assets/fonts/RedHatDisplay-Black.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hatsmed";
+    src: url("./assets/fonts/RedHatDisplay-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hatsbold";
+    src: url("./assets/fonts/RedHatDisplay-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 98%);
+    background-image: url(./assets/images/pattern-background-desktop.svg );
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box {
+    width: fit-content;
+    flex-direction: column;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: hsla(245, 75%, 52%, 0.1) 11px 11px 40px 11px;
+    background-color: white;
+}
+
+img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.order-summary {
+    font-size: 28px;
+    font-family: Hatsblack;
+    padding-top: 40px;
+    color: hsl(223, 47%, 23%);
+}
+
+.para {
+    font-family: Hatsmed;
+    width: 350px;
+    text-align: center;
+    padding-top: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-box {
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 350px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.icon {
+    margin: 18px;
+}
+
+.annual {
+    font-family: hatsblack;
+    font-size: 16px;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 5px;
+
+}
+
+.price {
+    font-family: hatsmed;
+    color: #717fa6;
+}
+
+.change-link {
+    font-family: hatsmed;
+    font-size: 14px;
+    margin-left: 100px;
+}
+
+.button {
+    width: 350px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: hatsbold;
+    font-weight: 900;
+    font-size: 14px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    color: #ffff;
+    box-shadow: hsla(245, 75%, 52%, 0.166) 11px 11px 40px 11px;
+}
+
+.button:hover {
+    background-color: #756CF1;
+    cursor: pointer;
+}
+
+.cancel {
+    font-family: hatsbold;
+    font-size: 14px;
+    color: #717fa6;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.cancel:hover {
+    cursor: pointer;
+}
